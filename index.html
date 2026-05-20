@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gerador de Itens Medieval</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="overlay">
+    <h1>⚔️ Forja Arcana Medieval ⚔️</h1>
+
+    <div class="container">
+      <label for="tipoItem">Tipo do Item:</label>
+      <select id="tipoItem">
+        <option value="Espada">Espada</option>
+        <option value="Arco">Arco</option>
+        <option value="Crossbow">Crossbow</option>
+        <option value="Clava">Clava</option>
+        <option value="Adaga">Adaga</option>
+        <option value="Machado">Machado</option>
+        <option value="Picareta">Picareta</option>
+        <option value="Pá">Pá</option>
+        <option value="Capacete">Capacete</option>
+        <option value="Peitoral">Peitoral</option>
+        <option value="Calça">Calça</option>
+        <option value="Botas">Botas</option>
+      </select>
+
+      <button id="gerarBtn">Gerar Item</button>
+
+      <div class="resultado">
+        <h2 id="nomeItem">—</h2>
+        <p id="raridade">—</p>
+        <p id="loreItem">—</p>
+      </div>
+
+      <button id="copiarBtn">Copiar Lore</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
